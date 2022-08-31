@@ -1,0 +1,9 @@
+name = File entity inline
+description = "Makes field entities editable within other entities."
+package = Media
+backdrop = 1.x
+type = module
+dependencies[] = file
+dependencies[] = field
+;dependencies[] = ctools
+configure = admin/structure/types
